@@ -1,0 +1,36 @@
+{
+  "name": "@jessieray-cli-dev/package",
+  "version": "1.0.17",
+  "description": "jessieray-cli-dev npm model",
+  "author": "张玉 <zyjavascript@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:zhangyibu/jessieray-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@jessieray-cli-dev/format-path": "^1.0.12",
+    "@jessieray-cli-dev/get-npm-info": "^1.0.16",
+    "@jessieray-cli-dev/utils": "^1.0.12",
+    "fs-extra": "^10.0.0",
+    "npminstall": "^4.10.0",
+    "path-exists": "^4.0.0",
+    "pkg-dir": "^5.0.0"
+  },
+  "gitHead": "89f7ada9e64c9954b71fcebd057cec3b64a4645b"
+}
